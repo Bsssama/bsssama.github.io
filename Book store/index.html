@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Store</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="nav_bar">
+                <img class="logo" src="./img/menu.png" width="24px" height="18px">
+                <div class="search_input">
+                    <img class="logo" src="./img/Search Icon.png" width="16px" height="16px" style="margin-left: 15px;">
+                    <input type="text" value="What are you looking for?" size="25">
+                </div>
+            </div>
+
+            <div class="order_box">
+                <img class="logo" src="./img/Account.png" width="18px" height="22px" style="margin-left: 15px;">
+                <img class="logo" src="./img/Favorite.png" width="25px" height="20px" style="margin-left: 15px;">
+                <button class="basket">
+                    <img src="./img/Icon.png" width="20px" height="20px" style="margin: 0 15px;">
+                    <p>Basket</p>
+                </button>
+            </div>
+
+            <main class="main_box">
+
+                <div class="main_box_item_1">
+                    <h1>New Releases This Week</h1>
+                    <p>It's time to update your reading list with some of the latest and greatest releases in the literary world. 
+                        From heart-pumping thrillers to captivating memoirs, this week's new releases offer something for everyone</p>
+                    <button class="subscribe_btn">Subscribe</button>
+                </div>
+
+                <div class="main_box_item_2">
+                    <img class="book_1" src="./img/book_1.png" width="55%" height="auto">
+                    <img class="book_2" src="./img/book_2.png" width="50%" height="auto">
+                    <img class="book_3" src="./img/book_3.png" width="40%" height="auto">
+                </div>
+
+            </main>
+            
+
+            <div class="genre_choose">
+                <label for="genre-select">Top Sellers</label><br>
+                <select name="genre" id="genre-select">
+                    <option value="">Choose a genre</option>
+                    <option value="poetry">Poetry</option>
+                    <option value="novel">Novel</option>
+                    <option value="detective">Detective</option>
+                    <option value="science_fiction">Science Fiction</option>
+                    <option value="history">History</option>
+                    <option value="fairy_tale">Fairy Tale</option>
+                </select>
+            </div>
+
+            <div class="cards_container">
+
+                <div class="book_card">
+                    <img src="./img/card_1.png" width="180px" height="250px">
+                    <div class="description">
+                        <h4>The Time Has Come</h4>
+                        <p>Lindbergh's Pharmacy is an Athens, Georgia, institution...</p>
+                        <p class="price">$ 27.89   <del>$ 30.99</del></p>
+                        <button class="book_card_btn">
+                            <img src="./img/Icon.png" width="20px" height="20px">
+                            <p>Add to basket</p>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="book_card">
+                    <img src="./img/card_2.png" width="180px" height="250px">
+                    <div class="description">
+                        <h4>I Want a Better Catastrophe</h4>
+                        <p>With global warming projected to rocket past the...</p>
+                        <p class="price">$ 26.99   <del>$ 28.99</del></p>
+                        <button class="book_card_btn">
+                            <img src="./img/Icon.png" width="20px" height="20px">
+                            <p>Add to basket</p>
+                        </button>
+                    </div>
+                </div>
+    
+    
+                <div class="book_card">
+                    <img src="./img/card_3.png" width="180px" height="250px">
+                    <div class="description">
+                        <h4>My Government Means To Kill Me</h4>
+                        <p>Lindbergh's Pharmacy is an Athens, Georgia, institution...</p>
+                        <p class="price">$ 27.89   <del>$ 30.99</del></p>
+                        <button class="book_card_btn">
+                            <img src="./img/Icon.png" width="20px" height="20px">
+                            <p>Add to basket</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="book_card">
+                    <img src="./img/card_4.png" width="180px" height="250px">
+                    <div class="description">
+                        <h4>Pride and Protest<br></h4>
+                        <p>A woman goes head-to-head with the CEO of...<br></p>
+                        <p class="price">$ 27.89   <del>$ 30.99</del></p>
+                        <button class="book_card_btn">
+                            <img src="./img/Icon.png" width="20px" height="20px">
+                            <p>Add to basket</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="book_card">
+                    <img src="./img/card_5.png" width="180px" height="250px">
+                    <div class="description">
+                        <h4>Forget a Mentor, Find a Sponsor</h4>
+                        <p>In this powerful yet practical book, economist and...</p>
+                        <p class="price">$ 27.89   <del>$ 30.99</del></p>
+                        <button class="book_card_btn">
+                            <img src="./img/Icon.png" width="20px" height="20px">
+                            <p>Add to basket</p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="book_card">
+                    <img src="./img/card_6.png" width="180px" height="250px">
+                    <div class="description">
+                        <h4>The Midnight Library</h4>
+                        <p>Lindbergh's Pharmacy is an Athens, Georgia, institution...</p>
+                        <p class="price">$ 27.89   <del>$ 30.99</del></p>
+                        <button class="book_card_btn">
+                            <img src="./img/Icon.png" width="20px" height="20px">
+                            <p>Add to basket</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="news_header">News</h2>
+
+            <div class="news_container">
+
+                <div class="news_container_item_1">
+                    <div>
+                        <h3>The Books You Need to Read in 2023</h3>
+                        <hr>
+                        <p>This is the blog we know you've all been waiting for. We present the top 10 titles for 2023 in fiction, non-fiction and children's books; 
+                            a glorious mix of masterful storytelling, compelling subject matter and page-turning thrills...</p>
+                    </div>
+                    <div class="item_1_img"></div>
+                </div>
+
+                <div class="news_container_item_2">
+                    <div>
+                        <h3>February's Best Children's Books</h3>
+                        <hr>
+                        <p>Some of the finest children's authors currently writing have books publishing this month, 
+                            from Natasha Farrant to Elle McNicoll and from Tahereh Mafi to Harriet Muncaster. 
+                            Across all areas and age ranges there are plenty of fantastic titles...</p>
+                    </div>
+                    <div class="item_2_img" style="min-width: 123px; height: 156px; background-color: skyblue;"></div>
+                </div>
+
+            </div>
+
+            <div class="bottom_nav_bar">
+                <img src="./img/Logo.png" width="97px" height="90px">
+                <ul>
+                    <li><a>About</a></li>
+                    <li><a>Features</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Gallery</a></li>
+                    <li><a>Team</a></li>
+                </ul>
+            </div>
+
+           <div class="subscribe_bar">
+                <p>Subscribe to stay tuned for new product and latest updates.<br>Let’s do it!</p>
+                <div class="search_bar_btn">
+                    <input type="text" value="Enter your email address" size="30">
+                    <button>Subscribe</button>
+                </div>
+           </div>
+
+           <footer>
+                <ul>
+                    <li><a>Privacy Policy</a></li>
+                    <li><a>Terms Of Use</a></li>
+                    <li><a>Sales And Refunds</a></li>
+                    <li><a>Legal</a></li>
+                </ul>
+                <div class="social">
+                    <img src="./img/Instagram.png" width="24px" height:="24px" style="margin-right: 50px;">
+                    <img src="./img/Google.png" width="24px" height:="24px" style="margin-right: 50px;">
+                    <img src="./img/Facebook.png" width="12px" height="23px">
+                </div>
+           </footer>
+
+
+        </div>
+    </body>
+</html>

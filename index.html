@@ -1,9 +1,195 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Sergey Bykov</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>S. Bykov</title>
+        <link href="./style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset=“utf-8”>
+    </head>
+    <body>
+
+        <!-- Navigation Section-->
+
+        <nav class="main">
+            <div class="nav">
+                <div class="logo">
+                    <img src="./img/logo.png" width="50px" height="50px">
+                </div>
+
+                <div class="lang">
+                    <ul>
+                        <li class="rus" id="rus">Ru</li>
+                        <li class="eng" id="eng">En</li>
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li><a href="#about" id="about_link">About</a></li>
+                        <li><a href="#projects_main" id="projects_link">Projects</a></li>
+                        <li><a href="#contacts" id="contacts_link">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="mobile" id="mobile">
+            <div class="nav_mobile">
+                <div class="logo">
+                    <img src="./img/logo.png" width="50px" height="50px">
+                </div>
+
+                <div class="menu_btn" id="menu_btn">
+                    <img src="./img/menu_btn.png" width="60px" height="40px">
+                </div>
+
+                <div class="lang">
+                    <ul>
+                        <li class="mobile_rus" id="mobile_rus">Ru</li>
+                        <li class="mobile_eng" id="mobile_eng">En</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="links_mobile">
+                <ul>
+                    <li><a href="#about" id="about_mobile_link">About</a></li>
+                    <li><a href="#projects_main" id="projects_mobile_link">Projects</a></li>
+                    <li><a href="#contacts" id="contacts_mobile_link">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section-->
+
+        <div class="hero">
+            <div class="hero_title">
+                <div class="title" id="title">
+                    <p id="front">FRONTEND</p>
+                    <p id="dev">&nbsp&nbsp&nbsp&nbsp&nbspDEVELOPER</p>
+                </div>
+                <p class="introduction" id="introduction">Hello. My name is Sergey. I am interested to participate in your projects,
+                    to grow up as a specialist and to be a part of team.  </p>
+                <p class="skills" id="skills">Skills:</p>
+                <ul>
+                    <li><img src="./img/html.jpg" alt="HTML logo" width="30px" height="34px"></li>
+                    <li><img src="./img/css.jpg" alt="CSS logo" width="30px" height="34px"></li>
+                    <li><img src="./img/js.jpg" alt="JS logo" width="30px" height="34px"></li>
+                </ul>
+                <button class="contact_me_btn"><a href="https://api.whatsapp.com/send/?phone=79272038618" target="_blank" id="contact_me_btn">CONTACT ME</a></button>
+            </div>
+
+            <div class="hero_photo">
+                <img src="./img/red_dots.png" width="55%" height="84%" class="red_dots">
+                <img src="./img/Me.jpg" alt="Developer Photo" width="auto" height="84%" class="my_photo">
+
+            </div>
+        </div>
+
+        <!--About Section-->
+
+        <div class="about" id="about">
+            <div class="about_container">
+                <div class="about_img">
+                    <img src="./img/description.jfif" width="85%" heigth="auto" alt="">
+                </div>
+                <div class="about_description">
+                    <h2 id="description_header">"Practice makes perfect"</h2>
+                    <p id="description_paragraph_1">I begun my career in 2014 as a processing engineer in
+                        Samara Space Center. Since that I have worked as designer 
+                        and processing engineer at mechanical engineering, 
+                        learned programming CNC machines and developed special
+                        equipment.</p>
+                    <p id="description_paragraph_2">In 2022 a decided realized myself in something new and started
+                        learning web development at <a href="https://www.codecademy.com/" class="ca_link" target="_blank">Codecademy</a>.</p>
+                    <p id="description_paragraph_3">This days I continuously work on my hard skills, looking for a job
+                        so that to grow up as a professional among experienced teammates. </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Projects Section-->
+
+        <div class="projects_main" id="projects_main">
+
+            <div class="projects">
+                <div class="projects_title">
+                    <h2 id="projects_header">//Projects</h2>
+                </div>
+            <div class="projects_container">
+                <div class="project_1" id="project_1">
+                    <div class="description_1" id="description_1">
+                        <h3 id="project1_header">Books Shop</h3>
+                        <p id="project1_paragraph">This project represents the desctop layout of book's shop web-site.</p>
+                        <h3 id="project1_techs">Techs:</h3>
+                        <ul class="techs">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <ul class="icons">
+                            <li><a href="#"><img src="./img/git_hub_icon.png" height="25px" width="auto" alt="Github Icon" title="GitHub" class="git"></a></li>
+                            <li><a href="./Book store/index.html" target="_blank"><img src="./img/live_view.png" height="25px" width="auto" alt="Live View" title="Live View" class="live"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project_2" id="project_2">
+                    <div class="description_2" id="description_2">
+                        <h3 id="project2_header">Company Web Page</h3>
+                        <p id="project2_paragraph">This project represents desctop version of company's web page.</p>
+                        <h3 id="project2_techs">Techs:</h3>
+                        <ul class="techs">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <ul class="icons">
+                            <li><a href="#"><img src="./img/git_hub_icon.png" height="25px" width="auto" alt="Github Icon" title="GitHub" class="git"></a></li>
+                            <li><a href="./Twiscode/index.html" target="_blank"><img src="./img/live_view.png" height="25px" width="auto" alt="Live View" title="Live View" class="live"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project_3" id="project_3">
+                    <div class="description_3" id="description_3">
+                        <h3 id="project3_header">Restaurant Web Page</h3>
+                        <p id="project3_paragraph">This project represents desctop version of restaurant's web page.</p>
+                        <h3 id="project3_techs">Techs:</h3>
+                        <ul class="techs">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <ul class="icons">
+                            <li><a href="#"><img src="./img/git_hub_icon.png" height="25px" width="auto" alt="Github Icon" title="GitHub" class="git"></a></li>
+                            <li><a href="./Bucca Di Beppo/index.html" target="_blank"><img src="./img/live_view.png" height="25px" width="auto" alt="Live View" title="Live View" class="live"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+          <!--Form Section-->
+
+          <div class="contacts" id="contacts">
+            <div class="contacts_title">
+                <h2 id="contacts_header">//Contacts</h2>
+            </div>
+            <div class="contacts_data">
+                <p id="contacts_data_paragraph">Have interesting offer? Contact me any convenient way!</p>
+                <ul>
+                    <li><a href="mailto:bsssama@yandex.ru" target="_blank"><img src="./img/envelope.png" alt="e-mail" title="E-Mail" height="40px" width="auto"></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=79272038618" target="_blank"><img src="./img/whatsapp.png" alt="Whats App" title="Whats App" height="40px" width="auto"></a></li>
+                    <li><a href="https://github.com/Bsssama" target="_blank"><img src="./img/git_hub_icon_2.png" alt="Git Hub" title="Git Hub" height="40px" width="auto"></a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="footer">
+            
+          </div>
+
+
+
+        <script src="./portfolio.js"></script>
+    </body>
 </html>
